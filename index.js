@@ -1,5 +1,18 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+  // Write your algorithm her
+  for (let i = 0; i < array.length; i++) {
+   let firstNumber = array[i]
+ 
+    for (let j = i + 1; j < array.length; j++) {
+      
+      let lastNumber = array[j]
+      let sum = firstNumber + lastNumber
+        if (sum === target) {
+            return true;
+        }
+    }
+}
+return false;
 }
 
 /* 
@@ -8,6 +21,14 @@ function hasTargetSum(array, target) {
 
 /* 
   Add your pseudocode here
+1. use to for loop
+    a. first for loop is to iterate through the array
+    b. second for loop is to iterate through the array without the number you are going to compare to
+
+2. create variable for array[i] and array[j]
+3. create another variable that
+  
+
 */
 
 /*
