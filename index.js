@@ -25,8 +25,9 @@ return false;
     a. first for loop is to iterate through the array
     b. second for loop is to iterate through the array without the number you are going to compare to
 
-2. create variable for array[i] and array[j]
-3. create another variable that
+2. create variable for array[i](firstNumber) and array[j](lastNumber)
+3. create another variable(sum) that will add array[i] and array[j]
+4. compare sum and target if sum is equal to target it will return true, else it will return false.
   
 
 */
